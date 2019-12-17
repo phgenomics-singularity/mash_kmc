@@ -19,7 +19,7 @@ def load_template(name):
 @click.option("--kmc_version", default=None)
 @click.option("--author", default=None)
 @click.option("-c", "--config", default="config.toml")
-def update_singularity(version, author, config):
+def update_singularity(mash_version,kmc_version, author, config):
 
     '''
     update the singularity recipe for new version of snippy
